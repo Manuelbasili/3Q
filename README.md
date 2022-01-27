@@ -1,3 +1,2 @@
 # 3Q
-ciao mondo
-nonsochescrivere
+ciao
