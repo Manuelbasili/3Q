@@ -1,0 +1,5 @@
+.gitignore
+# Compiled Object Files
+*.obj
+#executables
+*.exe
