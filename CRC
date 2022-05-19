@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cstdlib>
 #include <stdlib.h>
@@ -22,6 +21,9 @@ for(int i=0; i<numerobits;i++)
 cout<<c;
 }
 
+//punto 2
+
+// dare la scelta di quale polinomio divisore G(X) utilizzare (stampando i polinomi riportati dal libro)
 
 int m=4;
 int gx[m];
@@ -50,3 +52,7 @@ bit[i] = 0;
 
 
 }
+
+//Punto 3
+//generare e stampare il polinomio D(x)Punto 4
+//calcolare e stampare il resto della divisione in modulo 2 fra G(X) e D(x)
