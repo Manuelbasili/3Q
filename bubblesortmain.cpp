@@ -12,21 +12,21 @@ cout<<array[i];
 }
 
 int main(){
-int g=20;
+int gl=20;
 int min;
 int tmp;
-int vettore[g];
-for(int i=0; i<g; i++){
+int vettore[gl];
+for(int i=0; i<gl; i++){
 vettore[i]=(rand()%20)+0;
 }
 srand((unsigned)time(0));
-stampa_vettore(g, vettore);
+stampa_vettore(gl, vettore);
 
 //Ordinamento BubbleSort
-for (int j = 0; j < g; j++ )
+for (int j = 0; j < gl; j++ )
 {
 
-for (int i=g-1; i>=j; i--)
+for (int i=gl-1; i>=j; i--)
  {
  if (vettore[i]>vettore[i+1])
    {
@@ -38,7 +38,7 @@ for (int i=g-1; i>=j; i--)
 
 }
 cout<<"\n\n-----------ARRAY------------\n\n";
-stampa_vettore(g, vettore);
+stampa_vettore(gl, vettore);
 
 }
 
